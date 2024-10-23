@@ -69,7 +69,7 @@ git remote add origin https://github.com/HooWC/vue-rabbit.git
 ```
 git init
 
-git remote add origin https://github.com/HooWC/Netlify-Demo.git   // 换你自己的url
+git remote add origin https://github.com/HooWC/HOO_LEARNING.git   // 换你自己的url
 
 git status
 
