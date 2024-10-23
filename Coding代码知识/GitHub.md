@@ -127,6 +127,13 @@ git status
 git add .
 git commit -m "update"
 git push
+
+===================
+
+git push origin master
+
+强制推送
+git push origin master --force
 ```
 
 ```
