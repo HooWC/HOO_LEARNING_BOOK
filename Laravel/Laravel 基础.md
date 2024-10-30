@@ -30,6 +30,13 @@ composer create-project laravel/laravel .
 php artisan serve
 php artisan serve --port=8080
 ```
+
+```
+php artisan key:generate
+```
+
+
+
 ### 🎲 安装 Model 命令
 
 ```

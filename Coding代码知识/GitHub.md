@@ -122,6 +122,8 @@ git push -u origin feature-branch  # 将代码推送到 feature-branch 分支
 
 #### 更新档案  (不需要使用)
 
+`git pull` 是 Git 中的一个命令，用于从远程仓库获取最新的更改
+
 ```
 git status
 git add .
@@ -130,10 +132,19 @@ git push
 
 ===================
 
+git pull
+git push --rebase
+
 git push origin master
 
 强制推送
 git push origin master --force
+
+===================
+// 遇到 拒绝 时候
+
+git pull --rebase origin master
+git push -u origin master
 ```
 
 ```
