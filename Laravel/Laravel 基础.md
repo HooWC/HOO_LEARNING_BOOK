@@ -43,6 +43,8 @@ php artisan key:generate
 php artisan make:model <model-name> -m    (model / migrate)
 
 php artisan make:model <model-name> -cm   (model / migration / controller)
+php artisan make:model Question -cm
+php artisan make:model Answer -cm
 
 php artisan make:model <model-name> --all
 ```

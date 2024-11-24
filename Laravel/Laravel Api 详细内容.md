@@ -1,6 +1,6 @@
 ### Laravel Api 写法
 
-```
+```php
 Route::apiResource('user',UserController::class);
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
@@ -16,7 +16,7 @@ http://127.0.0.1:8000/api/account/authenticator/verify
 http://127.0.0.1:8000/api/account/authenticators  (CRUD)
 ```
 
-```
+```php
 Route::group(['prefix' => 'account', 'as' => 'api.account.', 'middleware' => 'auth:api'], function () {
 
     Route::group(['prefix' => 'authenticator', 'as' => 'authenticator.'], function () {
@@ -35,7 +35,7 @@ Route::group(['prefix' => 'account', 'as' => 'api.account.', 'middleware' => 'au
 /api/ajax/account/filterProjectName
 ```
 
-```
+```php
 Route::group(['prefix' => 'ajax'], function () {
 
     Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
@@ -54,7 +54,7 @@ Route::group(['prefix' => 'ajax'], function () {
 
 ### 快速建成 `User Api Controller`
 
-```
+```php
 public function index()
 {
     return User::all();

@@ -10,6 +10,7 @@
 
 ```
 php artisan make:policy PostPolicy
+php artisan make:policy AnswerPolicy
 ```
 **或**
 

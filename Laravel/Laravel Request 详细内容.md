@@ -2,14 +2,14 @@
 
 #### 基本用法
 
-```
+```php
 $request->validate([
     'authenticator_id' => ['required', 'integer', 'exists:authenticators,id'],
     'code' => ['required', 'digits:6'],
 ]);
 ```
 
-```
+```php
 $request->validate([
     'name' => ['required', 'string', 'max:255'],
     'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:' . User::class],
@@ -17,13 +17,13 @@ $request->validate([
 ]);
 ```
 
-```
+```php
 $loginData = $request->only('email', 'password');
 
 if (Auth::attempt($loginData))
 ```
 
-```
+```php
 $userId = $request->input('user_id');
 $user = User::find($userId);
 ```
@@ -38,7 +38,7 @@ php artisan make:request UserRequest
 
 **基础用法**
 
-```
+```php
 public function authorize(): bool
 {
     return true;
@@ -65,7 +65,7 @@ public function message()
 
 **例子 1：**
 
-```
+```php
 public function authorize(): bool
 {
     return true;
@@ -104,7 +104,7 @@ public function validated($key = null, $default = null)
 
 **例子 2：**
 
-```
+```php
 public function authorize(): bool
 {
     return true;

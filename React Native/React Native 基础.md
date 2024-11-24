@@ -24,6 +24,8 @@ React Native是一个用于构建跨平台移动应用的开源框架。它由Fa
 
 ```
 npx create-expo-app <project-name>
+或
+npx create-expo-app@latest -e with-router
 ```
 
 ## 🔔 快速构建 `Navigation` 项目

@@ -75,7 +75,7 @@ git status
 
 git add .
 
-git commit -m "first commit"
+git commit -m "up"
 
 git push -u origin master
 ```
