@@ -88,7 +88,19 @@ git config --global user.name "Hoo Weng Chin"
 git config --global user.email "wengchinHoo@gmail.com"
 ```
 
+### 创建一个新的分支
 
+```
+git checkout -b 新分支名称
+git checkout -b feature/new-branch  // 例如：
+
+git branch
+git add .
+git commit -m "提交信息"
+git push -u origin feature/new-branch
+
+git branch -r // 在 GitHub 仓库页面中查看是否出现了新分支，或者运行以下命令查看远程分支：
+```
 
 
 
