@@ -205,7 +205,7 @@ git checkout update-branch
 6. **等待克隆完成**：VS Code 将自动克隆所选仓库到您选择的本地文件夹。您可以在状态栏的右下角看到克隆的进度。
 7. **打开存储库**：一旦克隆完成，您可以在源代码管理器中看到新克隆的存储库。您可以展开它以查看其中的文件和文件夹。
 
-通过以上步骤，您就可以在 Visual Studio Code 中打开并克隆 GitHub 仓库的 HTTPS 链接了。
+通过以上步骤，您就可以在 Visual Studio Code 中打开并克隆 GitHub 仓库的 HTTPS 链接了。 
 
 
 
