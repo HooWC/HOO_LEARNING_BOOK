@@ -139,7 +139,7 @@ git push -u origin feature-branch  # 将代码推送到 feature-branch 分支
 ```
 git status
 git add .
-git commit -m "update"
+git commit -m "up"
 git push
 
 ===================
