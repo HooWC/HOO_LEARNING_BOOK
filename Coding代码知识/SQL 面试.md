@@ -160,3 +160,163 @@ DELETE FROM table_name;
 
 
 
+## 进阶
+
+### LIMIT
+
+```
+SELECT * FROM Customers LIMIT 10;
+```
+
+### IS NULL
+
+```
+SELECT CustomerName, ContactName, Address
+FROM Customers
+WHERE Address IS NULL;
+```
+
+### IS NOT NULL
+
+```
+SELECT CustomerName, ContactName, Address
+FROM Customers
+WHERE Address IS NOT NULL;
+```
+
+### ORDER BY
+
+```
+SELECT * FROM Customers
+ORDER BY Country DESC;
+```
+
+### NOT
+
+```
+SELECT * FROM Customers
+WHERE NOT Country='Germany';
+```
+
+### MIN()
+
+```
+SELECT MIN(Price) AS SmallestPrice
+FROM Products; 
+```
+
+### MAX()
+
+```
+SELECT MAX(Price) AS LargestPrice
+FROM Products; 
+```
+
+### COUNT()
+
+```
+SELECT COUNT(ProductID)
+FROM Products;
+```
+
+### AVG()
+
+```
+SELECT AVG(Price)
+FROM Products;
+```
+
+### SUM()
+
+```
+SELECT SUM(Quantity)
+FROM OrderDetails;
+```
+
+### LIKE
+
+```
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'a%';
+```
+
+查询以 "a" 结尾的名字：
+
+```
+SELECT * FROM Customers
+WHERE CustomerName LIKE '%a';
+```
+
+`%or%` 表示：在 `CustomerName` 中 **只要包含 "or"**，无论前后有什么字符，都会匹配。
+
+```
+SELECT * FROM Customers
+WHERE CustomerName LIKE '%or%'
+```
+
+第二个字符是 "r" 的所有记录
+
+```
+SELECT * FROM Customers
+WHERE CustomerName LIKE '_r%';
+```
+
+查询 `CustomerName` 中，**以 "a" 开头且至少有三个字符** 的记录。
+
+```
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'a__%';
+```
+
+查询 `ContactName` 中，**以 "a" 开头且以 "o" 结尾** 的所有记录。
+
+```
+SELECT * FROM Customers
+WHERE ContactName LIKE 'a%o';
+```
+
+
+
+### NOT LIKE
+
+```
+SELECT * FROM Customers
+WHERE CustomerName NOT LIKE 'a%';
+```
+
+
+
+### OFFSET 
+
+**`OFFSET`** 用于跳过指定数量的记录，从而实现分页查询或控制结果集的起始点。
+
+```
+SELECT * 
+FROM TableName 
+LIMIT RowsToFetch OFFSET RowsToSkip;
+```
+
+#### **查询 1：获取前 3 条记录**
+
+```
+SELECT * FROM users LIMIT 3 OFFSET 0;
+```
+
+- 解释：
+  - `LIMIT 3`：返回 3 条记录。
+  - `OFFSET 0`：从第 0 条记录开始（即不跳过记录）。
+
+
+
+#### **查询 2：跳过前 3 条，获取接下来的 3 条记录**
+
+```
+SELECT * FROM users LIMIT 3 OFFSET 3;
+```
+
+- 解释：
+  - `LIMIT 3`：返回 3 条记录。
+  - `OFFSET 3`：跳过前 3 条记录，从第 4 条开始。
+
+
+
