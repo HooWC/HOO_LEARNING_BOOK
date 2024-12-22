@@ -1,0 +1,78 @@
+php 面试题
+
+sql
+
+foreach
+
+简单的php就可以了  print
+
+==
+
+不需要带电脑
+
+==
+
+写在纸上面
+
+==
+
+等whatsapp
+
+==
+
+
+查看去公司的路
+
+
+==
+
+new mysqli
+
+strrev()
+str_word_count()
+
+count()
+unset()
+die()
+
+array_count_values()
+array_unique()
+array_keys()
+array_values()
+array_sum()
+
+$conn->connect_error
+$conn->error
+$conn->close()
+query()
+num_rows > 0
+$row = $res->fetch_assoc()
+$conn->commit()
+$conn->rollback()
+
+$stmt = $conn->prepare()
+$stmt->bind_param("ss",$name,$email);
+$stmt->execute()
+$stmt->close()
+
+
+echo
+print_r()
+
+
+php 的 foreact, if else, while for
+
+sort
+rev
+
+Mysql 
+Oop
+Mvc
+
+
+
+
+
+
+
+
