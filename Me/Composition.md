@@ -215,7 +215,17 @@ Lastly 最后
 ## 05，What Is Language
 
 ```
+Today topic is what is language, there are a lot of language exist in this earth. But English language is most people understand and speak. But ther are something I want to say is what is laguage. Even though interviewer, company boss and some of the people also don't understand what is language.
 
+Why people make language, why people communicate in language, because language is use for others can understand what I talk to they.
+
+For example, many people like to speak English faster, and then others cann't understand. It's just talk to theyself, because there are not the all people can speak well English or listening. So they can speak slowing, and others can understand, this is the right way to speaking and what mean is language.
+
+Language is use for each other can understand what they speak, so this is the right way to speak language insteal speaking faster. I know that there are lots of peope like speak English faster for showing their English so good. But it's a wrong way, and it's so bad.
+
+Language is not showing how you English well, the right concept about language is people can understand what you say, so this is language, if people cann't understand, you can conversation well with they.
+
+Finally, language is not just for communicate, it's also can help people understanding that people thought, idea and meaning.So try to speak English slowly that help people can understand what you mean.
 ```
 
 ```
@@ -227,18 +237,32 @@ Lastly 最后
 ### 更新
 
 ```
+Today's topic is: What is language? There are many languages that exist on this earth, but English is the most widely understood and spoken language. However, there is something I want to say about language. Even interviewers, company bosses, and some people don’t fully understand what language is.
 
+Why did people create language? Why do people communicate using language? The answer is that language allows people to understand what I am saying to them.
+
+For example, many people like to speak English quickly, but others cannot understand. If you speak too fast, it’s like talking to yourself, because not everyone speaks English well or can understand it. So, it's better to speak slowly so others can understand. This is the right way to speak, and this is what language is for.
+
+Language is meant for people to understand each other. Speaking too quickly is not the right way. I know that many people like to speak English quickly to show off their English skills, but that is the wrong approach, and it’s not helpful.
+
+Language is not about showing how good your English is. The right concept of language is that people can understand what you say. If others cannot understand you, then you cannot have a good conversation with them.
+
+Finally, language is not just for communication; it also helps people understand each other's thoughts, ideas, and meanings. So, try to speak English slowly to help others understand what you mean.
 ```
 
 ```
-
+widely 广泛 y li
+meant for 意味着
+show off 炫耀
 ```
 
 
 
 ## ============
 
-============
+
+
+## ============
 
 ============
 
