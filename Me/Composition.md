@@ -260,13 +260,107 @@ show off 炫耀
 
 ## ============
 
+## 06，Rock Music
+
+```
+Today's topic is about rock music, there are lots of music types, maybe some people like to listen pop or rap music. There also some people just love to listen English or others language music only. But I want to say that rock music is my favorite.
+
+First, I was start from 2018 year love to listen rock music, the first rock music is come from America. Because there are a lot of famous rock music in America such as Bring me the horizon and Link Park. But One Ok Rock is my favorite rock band.
+
+I very like to studying while listening One Ok Rock music, because it will help me feel exciting and passion to keep it up and move forward. One Ok Rock music not just include rock but also have the warm, encourage and fighting, there are lots of song is talking about don't give up, being a strong man and stand up keep to fight even though the life is so painful that we cann't continue to move on.
+
+So, that why lots of people love their music, because as what I say their music is full of power, encourage and fighting never give up. I will recommend One Ok Rock band to my friends or family. Because their song really help us keep to move on.
+
+Finally, maybe some people will thinking that rock music is very noisy, but I as a very love rock music that I want to say is noisy is the rock music special and feature, that why lots of people love, because noisy can make they forget everything stress come from society and addicted in music world.
+```
+
+```
+band
+passion
+move forward
+move on
+recommend
+noisy
+feature
+society
+addicted  儿 跌 te 沉迷
+```
+
+
+
+```
+评分：
+1. 内容 (Content): 8/10
+文章主题清晰，表达了你对摇滚音乐的喜爱，并通过个人经历和具体例子支持你的观点。
+内容有一定的层次感，从你的喜爱原因到推荐，再到回应摇滚音乐的争议，结构合理。
+2. 语法 (Grammar): 5/10
+存在一些明显的语法错误，例如时态（如“was start”应为“started”），主谓一致（如“there are lots of song”应为“there are lots of songs”）。
+部分句子表达不够准确或流畅。
+3. 词汇 (Vocabulary): 6/10
+词汇量足够支持你的表达，但部分词语使用不当或不够正式，例如“the first rock music is come from America”应为“the first rock music I listened to was from America”。
+句式略显单一，多为简单句，缺乏复合句和高级表达。
+4. 连贯性 (Coherence): 6/10
+句子之间的衔接稍显生硬，可以增加过渡词使段落更流畅，例如“Furthermore,”、“In addition,”等。
+5. 拼写 (Spelling): 7/10
+有少量拼写错误，例如“Link Park”应为“Linkin Park”，“cann't”应为“cannot”。
+总分: 32/50
+这篇作文内容很有吸引力，但需要在语法、词汇和连贯性上进行更多改进。
+
+改进点总结：
+语法修正：修复了时态、主谓一致等语法问题，例如“was start”改为“started”，“there are lots of song”改为“there are lots of songs”。
+词汇优化：改进了一些不准确的词语和句子，使表达更自然流畅。
+连贯性提升：添加了过渡词（如“However,”，“Finally,”）来增强段落之间的连接。
+拼写修正：修复了拼写错误，如“Link Park”改为“Linkin Park”，“cann't”改为“cannot”。
+水平评估：
+这篇作文总体水平仍属于 A2-B1（初级到中级），但在修正后内容更加流畅、准确。如果你想提升到 B2 水平，可以：
+
+学习更多高级词汇和短语，如“immersive experience”，“uplifting messages”。
+加强复合句使用，如“Many of their songs talk about not giving up and staying strong, even when life feels too painful to move on.”
+丰富内容：可以加入更多关于摇滚音乐的背景信息或你的个人经历。
+继续努力，保持练习，你的写作水平会快速提升！💪🎸
+```
+
+
+
+### 更新
+
+```
+There are many types of music. Some people enjoy listening to pop or rap, while others prefer songs in English or other languages. As for me, rock music is my favorite.
+
+I first started listening to rock music in 2018. The first rock songs I heard were from American bands. America has produced many famous rock bands, such as Bring Me the Horizon and Linkin Park. However, my all-time favorite rock band is One Ok Rock.
+
+I enjoy studying while listening to One Ok Rock’s music because it makes me feel excited and passionate, motivating me to keep going and move forward. One Ok Rock’s music is not just about rock; it also contains warmth, encouragement, and fighting spirit. Many of their songs talk about not giving up, staying strong, and continuing to fight, even when life feels too painful to move on.
+
+This is why so many people love their music. As I mentioned, their songs are full of power, encouragement, and messages about never giving up. I would recommend One Ok Rock to my friends and family because their music truly inspires us to keep moving forward.
+
+Finally, some people might think that rock music is too noisy. As a big fan of rock music, I want to say that this noisiness is a unique feature of rock. It’s part of what makes it special. The energy and noise of rock music help people forget the stress of daily life and immerse themselves in the world of music.
+```
+
+```
+As for me 至于我
+produced 产生的  pro dus
+all-time favorite 一直以来的最爱
+Passionate - 热情的
+Motivating - 激励人的
+Contains - 包含 ken ten
+Warmth - 温暖
+Fighting spirit - 拼搏精神
+As I mentioned - 正如我提到的
+Truly - 真正地
+Noisiness - 喧闹
+It’s part of what makes it special - 它是让它特别的一部分
+Noise - 噪音
+Immerse - 沉浸  y mes
+immerse themselves 沉浸其中
+```
+
 
 
 ## ============
 
-============
+## ============
 
-============
+## ============
 
 ============
 
@@ -294,5 +388,11 @@ so that 以便
 Finally
 Remember
 Lastly 最后
+
+=
+
+As I mentioned - 正如我提到的
+As for me 至于我
+As well as - 以及
 ```
 
