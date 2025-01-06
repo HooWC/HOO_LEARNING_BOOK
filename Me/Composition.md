@@ -128,7 +128,7 @@ During this time, I got headache a week, and encounter lots of thing and people 
 
 ```
 compensation 赔偿
-composition
+composition 作品
 ```
 
 
