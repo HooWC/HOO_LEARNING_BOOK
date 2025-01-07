@@ -358,6 +358,92 @@ immerse themselves 沉浸其中
 
 ## ============
 
+## 07，Little Boy
+
+```
+Today is Friday, so when I start to wash my car, I saw a littlr boy walk slow on the road, It's look just only five or seven year old, then I decide to walk forward to that little boy and say with gently: "hey, little boy, why are you here? no go to school?".
+
+The little boy answer me: "I...I missed the school bas, then I was decide walk to the school.".
+
+When I hear that, I ask the little boy sit down on the chair on the porch, and then I decide to call the police, after that, I sit on the little boy beside and start to convensation.
+
+"It's very dangers that you're just only seven year old kid and walk alone on the road, there're lots of bad people in this society. So, if you missed the school bas, you can back home and call your parent take you to school by car, understand?".
+
+The little boy just keep quit and nod.
+
+Then after ten minuters, the police is coming and slowly sit down on the little boy beside: "hey, how was your day and why you here? could you tell me what happen?".
+
+Little boy say slowly: "I.. I just missed the school bas and I must to go school.".
+
+But the way, police decide to take the kid back to home of kid after all. And then police knock the door of kid home, but no one answer, so police decide to in and say it loudly: "hey, are there anyone home?".But still no one answer.
+
+Till the police open the room, they are saw the kid mother is still sleep on the bed, the woman scare and ask : "what...what happen?".
+
+Police put away the gun and answer to that woman: "hey, why your child walk alone on the road and you still sleep".
+
+The women answer with nervous: "Which child? I have three child, the another is still sleep at home."
+
+Police: "The seven year old one".
+
+And then the parent get a fine, because they treat this seven year old child no good, this story is tell all the parent don't let your child walk alone on the road, it's a very danger action.
+```
+
+```
+
+```
+
+
+
+### 更新
+
+```
+A Little Boy Walking Alone
+
+Today is Friday. When I started washing my car, I saw a little boy walking slowly on the road. He looked about five or seven years old. I decided to approach him and gently asked, "Hey, little boy, why are you here? Why aren't you at school?"
+
+The little boy replied, "I... I missed the school bus, so I decided to walk to school."
+
+Hearing this, I invited the little boy to sit on a chair on the porch. Then, I decided to call the police. While waiting, I sat beside him and started a conversation.
+
+"It's very dangerous for a seven-year-old to walk alone on the road," I said. "There are lots of bad people in this world. If you ever miss the school bus again, go back home and call your parents to take you to school by car, okay?"
+
+The little boy stayed quiet and nodded.
+
+About ten minutes later, the police arrived. One of the officers sat beside the boy and gently asked, "Hey, how's your day? Why are you here? Can you tell me what happened?"
+
+The boy replied slowly, "I... I just missed the school bus, and I needed to get to school."
+
+The police decided to take the boy back home. When they arrived, they knocked on the door, but no one answered. After calling out loudly, “Hello? Is anyone home?” and still receiving no response, they entered the house.
+
+Inside, they found the boy’s mother still sleeping in bed. Startled, she asked nervously, "What... what happened?"
+
+One officer put away his gun and replied, "Why was your child walking alone on the road while you were still sleeping?"
+
+The woman, visibly nervous, answered, "Which child? I have three children, and the others are still sleeping at home."
+
+The officer responded, "The seven-year-old one."
+
+In the end, the parents received a fine for neglecting their child’s safety.
+
+This story is a reminder to all parents: never let your child walk alone on the road. It’s a very dangerous thing to do.
+```
+
+```
+I decided to approach him
+gently asked
+replied
+While waiting
+stayed quiet
+calling out loudly
+no response
+still receiving no response
+Inside
+Startled
+put away his gun
+```
+
+
+
 ## ============
 
 ## ============
