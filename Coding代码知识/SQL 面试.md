@@ -374,6 +374,8 @@ FROM Customers;
 
 ### 多 Database
 
+老式的 SQL 语法，通常称为“隐式连接”
+
 ```
 SELECT o.OrderID, o.OrderDate, c.CustomerName
 FROM Customers AS c, Orders AS o
@@ -388,6 +390,15 @@ FROM Orders
 INNER JOIN Customers
 ON Orders.CustomerID=Customers.CustomerID;
 ```
+
+```
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate, OrderDetails.ProductID, OrderDetails.Quantity
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID
+INNER JOIN OrderDetails ON Orders.OrderID = OrderDetails.OrderID;
+```
+
+
 
 ### INNER JOIN LV2
 
