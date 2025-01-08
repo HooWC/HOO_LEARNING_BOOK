@@ -429,22 +429,49 @@ This story is a reminder to all parents: never let your child walk alone on the 
 ```
 
 ```
-I decided to approach him
-gently asked
-replied
-While waiting
-stayed quiet
-calling out loudly
-no response
-still receiving no response
-Inside
-Startled
-put away his gun
+I decided to approach him - 我决定接近他
+Gently asked - 轻声问道
+Replied - 回答 l ply
+While waiting - 等待的时候
+Stayed quiet - 保持安静
+Calling out loudly - 大声喊着
+No response - 没有回应
+Still receiving no response - 仍然没有收到回应
+Inside - 在里面
+Startled - 吓了一跳 start to
+Put away his gun - 收起了他的枪
+Visibly - 明显地 vi ji bli
+Neglecting - 忽视 next gla ting
+Reminder - 提醒
 ```
 
 
 
 ## ============
+
+8，
+
+```
+
+```
+
+```
+
+```
+
+
+
+### 更新
+
+```
+
+```
+
+```
+
+```
+
+
 
 ## ============
 
