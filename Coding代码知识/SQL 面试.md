@@ -620,3 +620,343 @@ DROP DATABASE databasename;
 ALTER TABLE Employees
 ADD Email VARCHAR(255);
 ```
+
+### Top
+
+如何用 SQL 查询表中的前 10 条记录
+
+```sql
+SELECT TOP 10 * FROM Users;
+```
+
+```sql
+SELECT u.UserName, o.OrderId, o.OrderDate
+FROM Users u
+INNER JOIN Orders o ON u.UserId = o.UserId
+WHERE u.UserName = 'John';
+```
+
+
+
+### 示例数据：
+
+假设我们有一个 `Orders` 表，包含以下数据：
+
+| OrderId | UserId | OrderDate  |
+| ------- | ------ | ---------- |
+| 1       | 1      | 2023-01-05 |
+| 2       | 1      | 2023-01-10 |
+| 3       | 1      | 2023-01-15 |
+| 4       | 2      | 2023-01-02 |
+| 5       | 2      | 2023-02-01 |
+| 6       | 2      | 2023-03-10 |
+| 7       | 2      | 2023-04-15 |
+| 8       | 2      | 2023-05-20 |
+| 9       | 3      | 2023-01-01 |
+| 10      | 3      | 2023-02-25 |
+| 11      | 3      | 2023-03-11 |
+| 12      | 3      | 2023-03-20 |
+| 13      | 3      | 2023-04-05 |
+| 14      | 3      | 2023-05-30 |
+
+------
+
+### 查询目标：
+
+你想查询那些 **订单数量大于 5** 且 **订单日期在 2023-01-01 之后** 的用户。通过 SQL 查询：
+
+```sql
+SELECT UserId, COUNT(*) AS OrderCount
+FROM Orders
+WHERE OrderDate > '2023-01-01'
+GROUP BY UserId
+HAVING COUNT(*) > 5;
+```
+
+------
+
+### 执行查询后的结果：
+
+| UserId | OrderCount |
+| ------ | ---------- |
+| 2      | 5          |
+| 3      | 6          |
+
+
+
+
+
+### 01
+
+### 1. **Users 表**（用户信息）
+
+| UserId | UserName | Email             |
+| ------ | -------- | ----------------- |
+| 1      | John     | john@example.com  |
+| 2      | Jane     | jane@example.com  |
+| 3      | Alice    | alice@example.com |
+
+### 2. **Orders 表**（订单信息）
+
+| OrderId | UserId | OrderDate  |
+| ------- | ------ | ---------- |
+| 1       | 1      | 2023-01-01 |
+| 2       | 1      | 2023-01-05 |
+| 3       | 2      | 2023-01-10 |
+| 4       | 3      | 2023-01-12 |
+| 5       | 3      | 2023-02-01 |
+
+### 3. **Products 表**（产品信息）
+
+| ProductId | ProductName | Price |
+| --------- | ----------- | ----- |
+| 1         | Laptop      | 1000  |
+| 2         | Phone       | 600   |
+| 3         | Mouse       | 50    |
+
+### **OrderDetails 表**（订单与产品关联，假设每个订单可能有多个产品）
+
+| OrderDetailId | OrderId | ProductId | Quantity |
+| ------------- | ------- | --------- | -------- |
+| 1             | 1       | 1         | 1        |
+| 2             | 1       | 2         | 2        |
+| 3             | 2       | 3         | 1        |
+| 4             | 3       | 1         | 1        |
+| 5             | 5       | 2         | 1        |
+
+------
+
+### **JOIN 查询**：假设你想查询每个用户的订单信息、所购买的产品以及产品价格。
+
+#### SQL 查询：
+
+```sql
+SELECT u.UserName, o.OrderDate, p.ProductName, od.Quantity, p.Price, (od.Quantity * p.Price) AS TotalPrice
+FROM Users u
+INNER JOIN Orders o ON u.UserId = o.UserId
+INNER JOIN OrderDetails od ON o.OrderId = od.OrderId
+INNER JOIN Products p ON od.ProductId = p.ProductId
+ORDER BY o.OrderDate;
+```
+
+#### 结果：
+
+| UserName | OrderDate  | ProductName | Quantity | Price | TotalPrice |
+| -------- | ---------- | ----------- | -------- | ----- | ---------- |
+| John     | 2023-01-01 | Laptop      | 1        | 1000  | 1000       |
+| John     | 2023-01-01 | Phone       | 2        | 600   | 1200       |
+| John     | 2023-01-05 | Mouse       | 1        | 50    | 50         |
+| Jane     | 2023-01-10 | Mouse       | 1        | 50    | 50         |
+| Alice    | 2023-01-12 | Laptop      | 1        | 1000  | 1000       |
+| Alice    | 2023-02-01 | Phone       | 1        | 600   | 600        |
+
+### **解释**：
+
+- **Users 表**：存储用户信息，`UserId` 用作唯一标识。
+- **Orders 表**：存储用户订单信息，`OrderId` 用作唯一标识。
+- **Products 表**：存储产品信息，`ProductId` 用作唯一标识。
+- **OrderDetails 表**：关联订单和产品，记录每个订单中每个产品的数量。
+
+通过 `INNER JOIN` 将这三个表连接起来：
+
+- `Users` 和 `Orders` 通过 `UserId` 连接。
+- `Orders` 和 `OrderDetails` 通过 `OrderId` 连接。
+- `OrderDetails` 和 `Products` 通过 `ProductId` 连接。
+
+最终，你得到了每个用户的订单详情，包括产品名称、数量、价格和总价。
+
+
+
+### 02
+
+```sql
+SELECT * FROM movies WHERE title LIKE "Toy Story%";
+```
+
+### 03
+
+```sql
+SELECT c.CustomerName, e.LastName AS E_Lastname, e.FirstName AS E_FirstName, p.ProductName, (od.Quantity * p.Price) AS Total, o.OrderDate
+FROM Orders o
+INNER JOIN Customers c ON o.CustomerID = c.CustomerID
+INNER JOIN Employees e ON o.EmployeeID = e.EmployeeID
+INNER JOIN OrderDetails od ON o.OrderID = od.OrderID
+INNER JOIN Products p ON od.ProductID = p.ProductID
+ORDER BY o.OrderDate
+```
+
+```sql
+SELECT c.CustomerName, e.LastName AS E_Lastname, e.FirstName AS E_Firstname, p.ProductName, (od.Quantity * p.Price) AS Total, o.OrderDate
+FROM (
+((Orders o INNER JOIN Customers c ON o.CustomerID = c.CustomerID) INNER JOIN Employees e ON o.EmployeeID = e.EmployeeID)
+INNER JOIN OrderDetails od ON o.OrderID = od.OrderID)
+INNER JOIN Products
+ORDER BY o.OrderDate;
+```
+
+### 04
+
+AliceMusic
+
+```sql
+SELECT u.UserName, CASE WHEN u.Gender = 0 THEN 'Male' WHEN u.Gender = 1 THEN 'Female' ELSE 'UnKnow' END AS Gender,s.SingerName AS Collect
+FROM SingerStores ss
+INNER JOIN Users u ON ss.UserID = u.UserID
+INNER JOIN Singers s ON ss.SingerID = s.SingerID;
+```
+
+### 05
+
+```sql
+CREATE DATABASE HRDB;
+GO
+
+USE HRDB;
+GO
+
+CREATE TABLE Employees
+(
+	Id INT IDENTITY PRIMARY KEY,
+	Name VARCHAR(255)
+);
+GO
+
+INSERT INTO Employees (Name)
+VALUES ('Hoo');
+GO
+
+SELECT * FROM Employees
+```
+
+```
+NVARCHAR
+```
+
+### 06 HRDB
+
+#### 1. `Employees` 表
+
+存储员工基本信息，每个员工有一个唯一的 ID。
+
+```sql
+CREATE TABLE Employees
+(
+    Id INT IDENTITY PRIMARY KEY,
+    Name VARCHAR(255)
+);
+```
+
+#### 2. `Departments` 表
+
+存储部门信息，每个部门有一个唯一的 ID。
+
+```sql
+CREATE TABLE Departments
+(
+    Id INT IDENTITY PRIMARY KEY,
+    DepartmentName VARCHAR(255)
+);
+```
+
+#### 3. `EmployeeDepartments` 表
+
+建立员工和部门之间的关系。一个员工可以属于多个部门，一个部门也可以有多个员工，因此这是一个多对多关系。
+
+```sql
+CREATE TABLE EmployeeDepartments
+(
+    EmployeeId INT,
+    DepartmentId INT,
+    PRIMARY KEY (EmployeeId, DepartmentId),
+    FOREIGN KEY (EmployeeId) REFERENCES Employees(Id),
+    FOREIGN KEY (DepartmentId) REFERENCES Departments(Id)
+);
+```
+
+#### 全部
+
+```sql
+CREATE TABLE Employees
+(
+    Id INT IDENTITY PRIMARY KEY,
+    Name VARCHAR(255)
+);
+
+CREATE TABLE Departments
+(
+    Id INT IDENTITY PRIMARY KEY,
+    DepartmentName VARCHAR(255)
+);
+
+CREATE TABLE EmployeeDepartments
+(
+    EmployeeId INT,
+    DepartmentId INT,
+    PRIMARY KEY (EmployeeId, DepartmentId),
+    FOREIGN KEY (EmployeeId) REFERENCES Employees(Id),
+    FOREIGN KEY (DepartmentId) REFERENCES Departments(Id)
+);
+GO
+
+SELECT * FROM EmployeeDepartments;
+
+INSERT INTO Departments (DepartmentName)
+VALUES ('HR'), ('IT'), ('Finance');
+
+INSERT INTO Employees (Name)
+VALUES ('Alice'), ('Bob'), ('Charlie');
+
+INSERT INTO EmployeeDepartments (EmployeeId, DepartmentId)
+VALUES (1, 1), (1, 2), (2, 2), (3, 3);
+
+SELECT * FROM Employees;
+SELECT * FROM Departments;
+SELECT * FROM EmployeeDepartments
+
+SELECT e.Name AS Employee_Name, d.DepartmentName AS Department
+FROM EmployeeDepartments ed
+JOIN Employees e ON ed.EmployeeId = e.Id
+JOIN Departments d ON ed.DepartmentId = d.Id
+```
+
+
+
+### 07 HRDB 02
+
+```sql
+UNIQUE NOT NULL
+```
+
+```sql
+CREATE DATABASE HRDB02
+GO
+
+CREATE TABLE Customer
+(
+    CustomerId INT IDENTITY PRIMARY KEY,  -- 主键
+    CustomerName VARCHAR(255) NOT NULL,    -- 客户名
+    Email VARCHAR(255) UNIQUE NOT NULL     -- 客户的电子邮件，要求唯一
+);
+
+CREATE TABLE Orders
+(
+    OrderId INT IDENTITY PRIMARY KEY,         -- 订单 ID
+    OrderDate DATETIME NOT NULL,              -- 订单日期
+    Amount DECIMAL(10, 2),                    -- 订单金额
+    CustomerId INT,                           -- 外键，指向 Customer 表的 CustomerId
+    FOREIGN KEY (CustomerId) REFERENCES Customer(CustomerId)  -- 外键约束
+);
+
+-- 向 Customer 表插入客户数据
+INSERT INTO Customer (CustomerName, Email)
+VALUES ('Alice', 'alice@example.com'),
+       ('Bob', 'bob@example.com');
+
+-- 向 Orders 表插入订单数据，注意 CustomerId 必须对应 Customer 表中存在的 CustomerId
+INSERT INTO Orders (OrderDate, Amount, CustomerId)
+VALUES ('2025-01-01', 100.50, 1),  -- Alice 的订单
+       ('2025-01-02', 200.75, 2);  -- Bob 的订单
+
+
+SELECT * FROM Orders;
+```
