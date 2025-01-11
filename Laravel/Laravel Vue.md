@@ -9,6 +9,7 @@ npm run dev
 
 ```
 npm install vue-loader@next vue@next vue-router@next # 安装这个
+npm install vue-loader@next vue-router@next
 ```
 
 vite.config.js
