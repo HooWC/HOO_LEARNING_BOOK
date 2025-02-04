@@ -449,26 +449,60 @@ Reminder - 提醒
 
 ## ============
 
-## 8，
+## 8，Podcasts
 
 ```
-恐怖电影
-喜欢看Youtube的美国警察逮捕坏人
-每天学习英文
-把英文当作是一个优美的行为
-告白的下午
-和女友的假期
+Hi everyone, I'm Hoo and welcome to my sins world for learning English Podcasts room, today epison we have a topic that touched many of us in daily life, Learning English. And with me is Liyin, who keep the conversation interesting.
 
+Liyin: Hey, I'm Liyin, so today we are talking about learning English. if you are not a native English speaker, I bealieve there are 90% foreigner will thinking that learning English so hardest.
 
-```
+Hoo: Yes, I'm also a foreigner come from Malaysia. You know in Malaysia, English is not us second language.
 
-```
+Liyin: I know, in Malaysia, Malay is the first language, and the native language is second, and then English is third language. But in business, people is often speaking English. That meaning if you are a Chinese or Indian who birth in Malaysia, it should be hard for learning language, because you must to know multiple language, such as Mandarin, Malay and English.
 
+Hoo: That true, Liyin, I birth in Malaysia as a Chinese, must to know how to speak Chinese, Malay and English. You know learning a new language is not easier, it's always take time. But today, I want to say is how do we learning English more easier, there some tips I can shape to you all. Firstly, you can open Youtube and search English podcasts, there are offer 8 minuts or easy English podcasts video, that can help you feel more fun when learning English in process. You can also download the audio, and then when you driving go to company every day morning and back to home, you can open the podcasts audio and try to listen for understand and enchange you English listening ability.
+
+Liyin: That a great way for learning English ,Hoo. Learning English should not a unhappy process, don't need to force yourself to learning. The most impontant is try to love English, if you like English, the learning process will more fun, get comfortable and happy. Because force yourself to learning anything not just only make you feel unhappy, it also bring stress and fatigue, what more serious is get sick and depression.
+
+Hoo: So the first step when you decide to start to learning English is love English. Maybe you can try watching English movie, I know that there are lots of interesting English movie and I bealieve there are one is you forivate. And keep it up, because learning language is take time, like study five or ten new works every day, or watching one or two English podcasts and wrote down those English work that you not familiar with. You can also use google translation and youtube video to found how the new work pronunciation. Try that and never give up, I bealieve it's really helpful to you.
+
+Liyin: Yes, at last, keep it up and never give up is also impontant, again, learning language is take time, and try to love English and watching English podcasts can help you more fun of learning English in process. Thanks for tuning in today episode, we hope you can speak, write and listen English well one day.
 ```
 
 
 
 ### 更新
+
+```
+Hoo: Hi everyone, I'm Hoo, and welcome to my “Sins World” podcast for learning English! Today’s episode is about a topic that affects many of us in daily life—learning English. And with me today is Liyin, who will keep the conversation interesting.
+
+Liyin: Hey, I'm Liyin! So today, we’re talking about learning English. If you're not a native English speaker, I believe 90% of foreigners think that learning English is very difficult.
+
+Hoo: Yes, I agree. I’m also a foreigner from Malaysia. You know, in Malaysia, English is not our second language.
+
+Liyin: I know. In Malaysia, Malay is the first language, and most people speak their native language as their second language. English is usually the third language. However, in business settings, people often speak English. This means that if you’re a Chinese or Indian born in Malaysia, learning languages can be quite challenging because you have to know multiple languages, such as Mandarin, Malay, and English.
+
+Hoo: That’s true, Liyin. I was born in Malaysia as a Chinese, so I had to learn how to speak Mandarin, Malay, and English. Learning a new language is not easy—it always takes time. But today, I want to talk about how we can make learning English easier. Here are some tips I’d like to share with all of you.
+
+Firstly, you can go to YouTube and search for English podcasts. There are many short, 8-minute easy English podcast videos that can make learning English more fun. You can also download the audio and listen to it while driving to work or going home. This helps improve your listening skills and enhances your English comprehension.
+
+Liyin: That’s a great way to learn English, Hoo! Learning English should not be a stressful process. You don’t need to force yourself to study. The most important thing is to enjoy the learning process. If you love English, studying will feel more fun, comfortable, and enjoyable. Forcing yourself to learn something can make you feel unhappy, stressed, or even exhausted. In serious cases, it may even lead to burnout or depression.
+
+Hoo: So, the first step in learning English is to love the language. Maybe you can start by watching English movies. There are so many interesting English movies, and I believe there’s at least one that you’ll love. Also, be consistent—learning a language takes time. Try studying five or ten new words every day, or watching one or two English podcasts and writing down unfamiliar words. You can use Google Translate and YouTube to check the pronunciation of new words. Keep practicing, and never give up—I believe this will be really helpful for you.
+
+Liyin: Yes! Lastly, consistency and perseverance are also important. Again, learning a language takes time, but if you love English and enjoy watching English podcasts, the process will be much more fun. Thanks for tuning in to today’s episode. We hope that one day, you’ll be able to speak, write, and listen to English fluently!
+```
+
+```
+perseverance 毅力 pre save v 人  preserve 保留 pre zhe
+consistency 一致性
+```
+
+
+
+## ============
+
+## 9，
 
 ```
 
@@ -481,14 +515,89 @@ Reminder - 提醒
 
 
 ## ============
+## 10，
 
-============
+```
 
-============
+```
 
-============
+```
 
-============
+```
+
+
+## ============
+## 11，
+
+```
+
+```
+
+```
+
+```
+
+
+## ============
+## 12，
+
+```
+
+```
+
+```
+
+```
+
+
+## ============
+## 13，
+
+```
+
+```
+
+```
+
+```
+
+
+## ============
+## 14，
+
+```
+
+```
+
+```
+
+```
+
+
+## ============
+
+## ============
+
+## ============
+
+## ============
+
+## ============
+
+## ============
+
+## ============
+
+```
+恐怖电影
+喜欢看Youtube的美国警察逮捕坏人
+每天学习英文
+把英文当作是一个优美的行为
+告白的下午
+和女友的假期
+
+
+```
 
 
 
