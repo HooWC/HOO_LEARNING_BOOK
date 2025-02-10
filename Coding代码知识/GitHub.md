@@ -6,6 +6,46 @@
 
 
 
+###  **如果你想切换回 `master`**
+
+```
+git checkout master  
+```
+
+### **如果你要删除本地 `brand` 分支**
+
+```
+git branch -d brand  
+```
+
+### **如果你要删除远程 `brand` 分支**
+
+```
+git push origin --delete brand  
+```
+
+你可以使用以下命令来查看 **当前所在的分支**：
+
+```
+git branch
+```
+
+
+
+
+
+```
+// git checkout -b branch_name → 创建并切换到 branch_name（这里你可以改成任何名字，比如 feature-login）。
+
+git checkout -b brand  
+
+//
+git push origin branch_name → 推送新分支到远程仓库。
+git checkout master → 切换回 master。
+```
+
+
+
 ```
 git clone http....
 ```
