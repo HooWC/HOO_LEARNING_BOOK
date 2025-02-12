@@ -502,14 +502,42 @@ consistency 一致性
 
 ## ============
 
-## 9，
+## 9，Calm down
 
+```
+My.B: Hello everyone welcome back to the "Sins World" English learning room, I'm Mr.B and with me is Mr.Blue. We're glad to see all of you again for this episode. We have a special topic today.
+
+My.Blue: wow, how special about today topic, Mr.B?
+
+My.B: Well, "Calm down" is our today topic. It's very easy to understand but also hard to do it. I know lots of people now is harder to calm down, even they try the best, also cann't make that. For example again, If you go outside eat with your friend, you are feeling boring and try to read and learning new English word. Finally, you will aware that it hard to remember and focus.
+
+My.Blue: That make of sense, because we usually remember, learning and focus something need a quiet place, if there are some people talking void and laughing can make us hard to focus everything. And the another reason is sometime your friend talk to you something that make you easies distrated for focus learning.
+
+My.B: So learning is need a quier place that help you focus well. Because a quiet place can help you more easies calm down and focus.
+
+My.Blue: The another example is when you angry, just try to tell yourself "Calm down". Angry cann't deal with thing well, but if you calm down, you can thinking a lot of method to handle problem. That why people always say that "Calm down" better than everything. It not just not help you thinking well, it's also help you feeling happy, healthy and smile.
+
+My.B: That correct, Because people love to talk with a calm down person, you will feel comfortable and happy with they.
+
+My.Blue: Thanks of tuning in today topic, and remember that "Calm down" can help you try to handle everything well.
 ```
 
 ```
+Mr.B: Hello everyone, welcome back to the "Sins World" English learning room. I'm Mr.B, and with me is Mr.Blue. We're glad to see all of you again for this episode. Today, we have a special topic.
 
-```
+Mr.Blue: Wow! What is special about today's topic, Mr.B?
 
+Mr.B: Well, today's topic is **"Calm Down."** It's easy to understand, but hard to do. Many people find it difficult to stay calm, even when they try their best. For example, imagine you're eating out with your friends. You feel bored, so you try to read and learn some new English words. But in the end, you realize it's hard to focus and remember anything.
+
+Mr.Blue: That makes sense! We usually need a quiet place to focus and learn. If there are people talking loudly and laughing around us, it's hard to concentrate. Another reason is that sometimes, our friends might talk about something interesting, which easily distracts us from learning.
+
+Mr.B: Exactly! That’s why studying requires a quiet place—it helps us focus better. A peaceful environment makes it easier to stay calm and concentrate.
+
+Mr.Blue: Another example is when you're angry. Just tell yourself, **"Calm down."** Getting angry won’t solve anything, but if you stay calm, you can think of better ways to handle the situation. That’s why people always say, **"Calm down."** It not only helps you think clearly, but also makes you feel happier and healthier.
+
+Mr.B: That's right! People enjoy talking to calm and composed individuals because it makes them feel comfortable and happy.
+
+Mr.Blue: Thanks for tuning in to today's topic! Remember, staying calm helps you handle everything better.
 ```
 
 

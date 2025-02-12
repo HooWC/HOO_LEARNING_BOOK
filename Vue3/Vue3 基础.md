@@ -9,6 +9,12 @@ Vue.js 是一个流行的前端 JavaScript 框架，用于构建用户界面和�
 ### 安装 `Vue` 项目
 
 ```
+npm install vue@3 // Laravel
+```
+
+
+
+```
 npm init vue@latest
 ```
 
