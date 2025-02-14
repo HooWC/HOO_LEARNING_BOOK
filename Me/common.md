@@ -50,8 +50,8 @@ in case 以防万一
 Not much of a talker 不爱说话  说话者
 Is this seat taken 这个位子有人吗？
 I don't recall 我不记得了  记得
-If you catch my drift 如果你明白我的意思的话
-Bon voyage 一路顺风
+If you catch my drift 如果你明白我的意思的话 zhu/j 漂移
+Bon voyage 一路顺风 ban voi age
 put of sight, out of mind 眼不见，心不烦
 You got me there 你难住我了
 It's now or never 机不可失
