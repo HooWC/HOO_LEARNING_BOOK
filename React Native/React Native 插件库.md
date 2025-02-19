@@ -447,6 +447,97 @@ const styles = StyleSheet.create({
 export default CameraExample;
 ```
 
+New
+
+```react
+import { CameraView, useCameraPermissions } from 'expo-camera';
+import { useState } from 'react';
+import { Button, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { useRouter } from 'expo-router';
+import { saveScanHistory } from '../src/utils/storage';
+import * as Clipboard from 'expo-clipboard';
+
+export default function Scanner() {
+    const [facing, setFacing] = useState('back');
+    const [permission, requestPermission] = useCameraPermissions();
+    const [scannedData, setScannedData] = useState(null);
+    const router = useRouter();
+
+    if (!permission) {
+        return <View />;
+    }
+
+    if (!permission.granted) {
+        return (
+            <View style={styles.container}>
+                <Text style={{ textAlign: 'center' }}>We need your permission to show the camera</Text>
+                <Button onPress={requestPermission} title="Grant Permission" />
+            </View>
+        );
+    }
+
+    const handleBarCodeScanned = async ({ data }) => {
+        setScannedData(data);
+        await saveScanHistory(data);
+    };
+
+    const copyToClipboard = async () => {
+        if (scannedData) {
+            await Clipboard.setStringAsync(scannedData);
+        }
+    };
+
+    return (
+        <View style={styles.container}>
+            {!scannedData ? (
+                <CameraView
+                    style={styles.camera}
+                    facing={facing}
+                    onBarcodeScanned={handleBarCodeScanned}
+                    barcodeScannerSettings={{ barcodeTypes: ['qr'] }}
+                />
+            ) : (
+                <View style={styles.resultContainer}>
+                    <Text style={styles.resultText}>Scanned QR Code:</Text>
+                    <Text style={styles.resultData}>{scannedData}</Text>
+                    <TouchableOpacity style={styles.button} onPress={copyToClipboard}>
+                        <Text style={styles.buttonText}>Copy Link</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={styles.button}
+                        onPress={() => {
+                            setScannedData(null);
+                            router.replace('/');
+                        }}
+                    >
+                        <Text style={styles.buttonText}>Close</Text>
+                    </TouchableOpacity>
+                </View>
+            )}
+        </View>
+    );
+}
+
+const styles = StyleSheet.create({
+    container: { flex: 1, justifyContent: 'center', alignItems: 'center' },
+    camera: { flex: 1, width: '100%' },
+    resultContainer: { alignItems: 'center', marginTop: 20 },
+    resultText: { fontSize: 18, fontWeight: 'bold' },
+    resultData: { fontSize: 16, color: '#007AFF', marginVertical: 10 },
+    button: { 
+      backgroundColor: '#007AFF', 
+      padding: 10, 
+      margin: 10, 
+      borderRadius: 5, 
+      width: 120, 
+      textAlign: 'center', 
+      justifyContent: 'center', 
+      alignItems: 'center' 
+    },
+    buttonText: { color: '#fff', fontSize: 16 },
+});
+```
+
 
 
 ## ⚡ Expo MediaLibrary
