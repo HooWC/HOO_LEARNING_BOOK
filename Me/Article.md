@@ -1062,6 +1062,17 @@ Agent: I understand, boss. Maybe many people using at the same time. I reset for
 Customer: Okay, thanks ah!
 ```
 
+```
+report → 报告
+chasing → 追赶
+just need to double-check some numbers → 只是需要再检查一下数据
+better be safe than sorry → 小心总比后悔好
+national → 国家级的 / 全国性的
+weird sound → 奇怪的声音
+suspension problem → 悬挂问题
+reset → 重置
+```
+
 
 
 ## 2
@@ -1152,6 +1163,24 @@ Ah Fatt: Haha, sure sure. Next time buy jumper cable also la.
 (Raj and Ah Wei laugh as they hop into the tow truck, heading to the workshop.)
 ```
 
+```
+tow truck
+ChatGPT 说：
+the car breaks down → 车抛锚了
+petrol finish → 汽油用完了
+panic → 惊慌
+jumper cable → 搭电线
+mechanic → 修车师傅 / 机械师
+cousin → 表亲 / 堂兄弟姐妹
+headlights → 车头灯
+spoil → 损坏 / 变质
+truck → 卡车 / 货车
+tow → 拖走
+discount → 折扣
+hop into → 跳进 / 上车
+tow truck → 拖车
+```
+
 
 
 ## 3
@@ -1218,6 +1247,22 @@ Jason: Steady, bro. Okay, we eat first.
 (They dig into their food, enjoying the late-night meal. The atmosphere is lively with other customers watching football on the TV.)
 ```
 
+```
+stall → 摊位 / 熄火
+supper → 宵夜
+Just now → 刚才
+don’t mention → 别客气
+fella → 伙计 / 家伙
+strict → 严格
+by procedure → 按照程序
+flexible → 灵活
+nods approvingly → 赞同地点头
+They dig into their food → 他们大口吃起来
+late-night → 深夜
+atmosphere → 氛围
+lively → 热闹 / 活泼
+```
+
 
 
 ## 4
@@ -1236,6 +1281,53 @@ The country’s diverse cuisine is another essential part of Malaysian style. Th
 Beyond material culture, the Malaysian way of life also embodies its unique style. The people are known for their hospitality and warmth, embracing a spirit of unity despite ethnic and religious differences. This is evident during festivals like Hari Raya, Chinese New Year, and Deepavali, where Malaysians of all races celebrate together in harmony.
 
 In conclusion, the Malaysian style is a beautiful fusion of tradition and modernity, influenced by its diverse heritage. Whether in architecture, fashion, cuisine, or daily life, Malaysia’s unique character continues to stand out as a symbol of multiculturalism and unity.
+```
+
+```
+diversity → 多样性
+blending → 融合
+ethnic influences → 民族影响
+national identity → 国家认同
+architecture → 建筑
+cuisine → 美食 / 菜肴
+blend → 混合 / 融合
+modernity → 现代化
+striking aspects → 显著特点
+stilts → 高跷 / 高架支撑
+intricate wooden carvings → 精美的木雕
+tropical climate → 热带气候
+Meanwhile → 与此同时
+colonial-era → 殖民时代
+showcase → 展示
+influences → 影响
+modern skyscrapers → 现代摩天大楼
+represent → 代表
+nation's rapid development → 国家快速发展
+harmonious coexistence → 和谐共存
+urban landscape distinctive → 城市景观独特
+multicultural heritage → 多元文化遗产
+attire varies → 服饰各异
+ethnic groups—Malay men → 民族群体——马来男性
+adorn → 装饰
+embrace → 拥抱 / 采纳
+In modern times → 在现代
+contemporary fashion → 当代时尚
+essential → 重要的 / 必不可少的
+scene → 场景 / 领域
+flavorful dishes → 味道丰富的菜肴
+vibrant → 充满活力的
+hawker stalls offering affordable and delicious meals → 提供经济实惠美食的小贩摊位
+Beyond material culture → 超越物质文化
+embodies → 体现
+hospitality and warmth → 热情好客
+embracing a spirit → 拥抱精神
+unity despite ethnic and religious differences → 尽管存在种族和宗教差异，仍保持团结
+evident → 显而易见的
+harmony → 和谐
+modernity → 现代性
+heritage → 遗产
+symbol → 象征
+multiculturalism and unity → 多元文化和团结
 ```
 
 
@@ -1263,6 +1355,22 @@ Conclusion: Celebrating Malaysian Style
 In conclusion, the Malaysian style is a beautiful fusion of tradition and modernity, influenced by its diverse heritage. Whether in architecture, fashion, cuisine, or daily life, Malaysia’s unique character continues to stand out as a symbol of multiculturalism and unity.
 
 Host: Thank you for tuning in to this episode! We hope you enjoyed exploring the unique style of Malaysia. Stay connected for more fascinating insights into culture and lifestyle. Until next time!
+```
+
+```
+Let's dive in → 让我们深入探讨
+striking aspects of Malaysian style → 马来西亚风格的显著特点
+feature intricate wooden carvings → 具有精美的木雕
+tropical climate → 热带气候
+represent Malaysia’s rapid development → 代表马来西亚的快速发展
+seamless → 无缝的 / 流畅的
+distinctive → 独特的
+vibrant urban landscape → 充满活力的城市景观
+fascinating insights → 引人入胜的见解
+
+
+
+"where we" 在这里的意思是 "在这里，我们……" 或 "在这个地方，我们……"。
 ```
 
 
@@ -1295,6 +1403,19 @@ Jake: Thanks, Emma! That means a lot. Maybe we can collaborate one day!
 Emma: That would be awesome! Let’s do it!
 ```
 
+```
+What got you into it → 是什么让你对它感兴趣的？
+whatever inspires you → 无论是什么激励着你
+A bit of both → 两者都有一点
+and other times → 而有时
+inspiration → 灵感
+come up with melodies → 想出旋律
+tunes → 曲调 / 旋律
+keyboard → 键盘
+chasing dreams → 追逐梦想
+It’s really personal to me → 这对我来说非常个人化 / 这对我来说意义重大
+```
+
 
 
 ## 7
@@ -1325,6 +1446,31 @@ Chris: Definitely! I’ll introduce you to some games that are not only fun but 
 Alex: Alright, I’m in! But you have to promise not to crush me too badly in the game.
 
 Chris: No guarantees, but I’ll try to go easy on you! Let’s get started!
+```
+
+```
+That means a lot → 这对我来说很重要 / 我很感激
+socializing → 社交
+doesn’t seem very productive → 似乎不太高效
+streamers → 直播主播
+make a living out of it → 以此谋生
+average person → 普通人
+economic planning → 经济规划
+decision-making skills → 决策能力
+addiction → 成瘾
+end up neglecting responsibilities → 最终忽视责任
+applies → 适用 / 应用
+moderation → 适度 / 克制
+balanced → 平衡的
+mentally stimulating → 刺激思维的
+entertainment → 娱乐
+see for myself → 亲自看看 / 亲身体验
+introduce → 介绍 / 引入
+end up enjoying it → 最终喜欢上它
+I’m in → 我加入 / 我同意
+crush → 迷恋 / 喜欢的人
+badly → 严重地 / 很糟糕
+No guarantees → 不能保证 / 没有承诺
 ```
 
 

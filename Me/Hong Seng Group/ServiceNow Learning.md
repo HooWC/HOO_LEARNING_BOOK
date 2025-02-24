@@ -88,6 +88,24 @@ Problem Management（问题管理）：
 可能需要几天、几周或更长时间才能彻底解决问题。
 ```
 
+```
+Change Management -> Create -> All -> Normal
+```
+
+```
+什么时候使用 Request → New 和 Service Catalog → New：
+Request → New(Service Catalog)
+
+用于创建不通过服务目录的请求。例如，用户想要手动创建某个请求，可能不适用任何预定义的服务目录项。
+这种方式会直接创建 Request 记录，但不一定包含具体的服务项。
+Service Catalog → New：
+
+当用户需要请求 Service Catalog 中的服务、软件、硬件、访问权限等时，会通过 Service Catalog 提交请求。
+通过这种方式提交的请求会自动创建一个 Request 记录，并在 Requested Items 中创建相应的项。
+```
+
+
+
 ### ===========
 
 ### Script 
@@ -101,6 +119,10 @@ System Definition -> Script Background
 gs.info
 gs.error
 gs.print
+name.query();
+name.setLimit(10);
+name.orderBy("number");
+name.addQuery("active=true")
 ```
 
 #### 基础 print 总数
@@ -203,6 +225,78 @@ grInc.insert();  // 将新记录插入到 incident 表中
 gs.print('New Incident Created with Number: ' + grInc.number); // 输出新创建的 incident 编号
 ```
 
+#### 创建 `Problem`
+
+```javascript
+var grProblem = new GlideRecord('problem'); // 'problem' 表是用来存储问题记录的
+grProblem.initialize(); // 初始化一个新记录
+
+// 使用点符号设置字段值
+grProblem.short_description = 't:Hoo, Example Problem Description'; // 设置简短描述 // Problem statement
+grProblem.description = 'Detailed description of the problem'; // 设置详细描述
+grProblem.caller_id = '6816f79cc0a8016401c5a33be04be441'; // 使用 sys_id 来指代呼叫者
+grProblem.category = 'Software';  // 设置问题的类别
+grProblem.subcategory = 'Email';
+grProblem.state = 1;  // 设置状态，1 表示 New
+grProblem.impact = 3;  // 设置影响度，3 代表低
+grProblem.urgency = 3;  // 设置紧急度，3 代表低
+grProblem.priority = 5;  // 设置优先级，5 代表 Planning
+grProblem.assignment_group = '';  // 设置分配组（可以为空）
+grProblem.assigned_to = '';  // 设置负责人（可以为空）
+
+// 插入记录到数据库
+var problemSysId = grProblem.insert(); // 插入新记录并返回其 sys_id
+
+// 输出新创建的 Problem 编号
+gs.print('New Problem Created with sys_id: ' + problemSysId);
+```
+
+#### 创建 `Change`
+
+```javascript
+var grChange = new GlideRecord('change_request');  // 'change_request' 表是用来存储变更请求的
+grChange.initialize();  // 初始化一个新的变更请求记录
+
+// 设置字段值
+grChange.short_description = 'T:Hoo, Test Change Request: System Upgrade';  // 简短描述
+grChange.description = 'T:Hoo, This change request is to perform a system upgrade for the database.';  // 描述
+grChange.requested_by = '6816f79cc0a8016401c5a33be04be441';  // 提出变更请求的用户的 sys_id
+grChange.category = 'Other';  // 类别
+grChange.service = '';  // 可选：服务
+grChange.service_offering = '';  // 可选：服务提供方式
+grChange.configuration_item = '';  // 可选：配置项
+grChange.priority = 4;  // 优先级（4 - Low）
+grChange.risk = 'Moderate';  // 风险
+grChange.impact = 3;  // 影响程度（3 - Low）
+grChange.model = 'Normal';  // 模型
+grChange.type = 'Normal';  // 类型
+grChange.state = 1;  // 状态（1 = New）
+grChange.conflict_status = 'Not Run';  // 冲突状态
+grChange.conflict_last_run = '';  // 冲突最后运行时间（可选）
+grChange.assignment_group = '';  // 可选：分配组
+grChange.assigned_to = '';  // 可选：负责人
+
+// 插入记录到数据库
+grChange.insert();  // 将新的变更请求记录插入到 change_request 表中
+
+// 输出新创建的变更请求编号
+gs.print('New Change Request Created with Number: ' + grChange.number);  // 输出新创建的变更请求编号
+```
+
+
+
+### ===========
+
+Flow Designer
+
+```
+Playbook - 主要用于安全响应（Security Incident Response）。
+Flow ✅ - 完整的工作流，适用于审批、通知、数据处理等。
+Subflow - 用于封装可复用的流程，类似于子流程。
+Action - 用于创建可复用的单个操作，类似于 API 或函数。
+Decision Table - 用于复杂的条件判断和规则决策。
+```
+
 
 
 ### ===========
@@ -233,7 +327,7 @@ Problem Management（问题管理）
 Change Management（变更管理）
 变更管理是ITSM的一个核心部分，帮助管理IT基础设施的变更，确保变更不会对服务造成意外影响。你可以学习如何创建变更请求、评估风险、实施变更以及后续跟踪。
 
-Request Management（请求管理）
+Request Management（请求管理） Service Catalog
 这个模块用于管理用户的服务请求，如软件安装、硬件更换等。你可以学习如何创建、处理和跟踪请求。
 
 Configuration Management Database (CMDB)
@@ -247,6 +341,25 @@ Knowledge Management（知识管理）
 
 Service Level Management（服务级别管理）
 该模块帮助管理和跟踪服务级别协议（SLA），确保提供的服务符合约定的标准。学习如何定义SLA、跟踪性能和生成报告。
+```
+
+
+
+```
+聊天功能
+MSP
+```
+
+
+
+
+
+### ===========
+
+安装
+
+```
+plugins -> advanced work ass -> Agent Chat x
 ```
 
 ### ===========
