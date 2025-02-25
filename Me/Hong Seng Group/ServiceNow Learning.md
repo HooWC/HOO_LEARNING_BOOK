@@ -23,6 +23,20 @@ SD 我的user id
 6816f79cc0a8016401c5a33be04be441
 ```
 
+`stats.do` 是 ServiceNow 的 **系统统计信息页面**，主要用于 **性能监控、调试和系统健康检查**。它会显示当前 ServiceNow 实例的各种系统参数、缓存使用情况、数据库连接、节点信息等。
+
+```
+https://dev204508.service-now.com/stats.do  // 信息
+```
+
+```
+https://dev204508.service-now.com/sp  // home
+```
+
+```
+https://dev204508.service-now.com/   // 登入
+```
+
 
 
 ### ===========
@@ -72,6 +86,8 @@ ITSM 主要有四个核心模块：
 
 ```
 1. 明白什么是ITSM，类似高级版的Todo Task。
+2. 更换Logo，Basic 16
+3. 简单代码快速创建
 ```
 
 ```
