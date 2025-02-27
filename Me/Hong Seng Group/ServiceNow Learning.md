@@ -98,8 +98,11 @@ System Properties - Basic Configuration UI16 // 更换 logo
 1. 明白什么是ITSM，类似高级版的Todo Task。
 2. 更换Logo，Basic 16 // 信息
 3. 简单代码快速创建
-4. List save filter
+4. List save filter 重复使用 Filter
 5. Email Notifications (自动化)
+6. 创建 knownledge 文章 && Import 文章 && Attachment link (Approved) 下载文章
+7. roles 查看自己有什么权限
+7. Service catalog
 ```
 
 #### & 解释
@@ -419,6 +422,14 @@ Visual Basic
 ERP
 ```
 
+```
+Assign role
+inbound action
+gmail
+```
+
+
+
 ### ===========
 
 ### 询问
@@ -426,5 +437,21 @@ ERP
 ```
 1. Wifi 密码
 
+```
+
+===========
+
+带
+
+```
+1. 口罩
+2. 笔
+3. 书
+4. hard disk
+5. 电话
+6. 充电
+7. 水
+8. 包
+9. 
 ```
 
