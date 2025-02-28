@@ -34,7 +34,7 @@ https://dev204508.service-now.com/sp  // home
 ```
 
 ```
-https://dev204508.service-now.com/   // 登入
+https://dev204508.service-now.com/   // 登入 kJbd$*nUR3B5
 ```
 
 
@@ -90,6 +90,21 @@ laptop* → 搜索以“laptop”开头的数据（比如 "laptop model", "lapto
 
 
 
+```
+代码论坛中的讨论：在代码论坛上，开发者们分享他们遇到的问题、提供不同的解决方法或建议，大家根据自己的经验来分析和讨论这些问题的根本原因，最终得出最有效的解决方案。
+
+Root Cause Analysis（RCA）：类似的，Root Cause Analysis 也是一个深入分析问题的过程。在 ServiceNow 的 Problem Management 中，IT 团队会收集数据、分析症状，提出可能的根本原因，并记录这个分析过程，就像论坛上的讨论一样，目标是找到问题的源头。
+```
+
+
+
+```
+Incident 是单个故障或问题，通常是即时的，快速处理。
+Problem 是多个 Incident 引起相同或相似问题的集合，用来查找和处理根本原因。
+```
+
+
+
 ### ===========
 
 ### 功能
@@ -118,6 +133,8 @@ System Properties - Basic Configuration UI16 // 更换 logo
 7. roles 查看自己有什么权限
 8. Process flow (state is new) + 实现自动流转（比如 24 小时没人处理就自动 On Hold）
 9. system definition - table & columns (创建新的database) [玩]
+10. Problem table (Root Cause Analysis)
+11. Change Management
 
 让不同角色只能更改特定状态（比如客户不能直接改 Resolved）
 触发通知（状态变更时发送邮件或 Slack 提醒）
