@@ -76,6 +76,20 @@ ITSM 主要有四个核心模块：
 - 这里的 `Roles` 只会**作用于该 Group 里的某个特定成员**。
 - **✅ 推荐做法：** 如果**你不想让所有 Group 成员都继承 `ITIL` 角色**，你可以在 `User Administration > Users` 里**单独给某个用户添加 `ITIL`**。
 
+
+
+```
+在 ServiceNow 的搜索框里，使用 * 号是通配符，表示模糊匹配。
+
+*laptop → 搜索包含“laptop”的数据（比如 "Dell Laptop", "My laptop is new"）。
+laptop* → 搜索以“laptop”开头的数据（比如 "laptop model", "laptop123"）。
+*laptop* → 搜索任意位置包含“laptop”的数据（比如 "My laptop is new", "Buy a laptop now"）。
+!*laptop → 搜索不包含“laptop”的数据。
+!*laptop 适用于 排除某个关键词 的搜索，意思是「查找所有不包含 'laptop' 的数据」。
+```
+
+
+
 ### ===========
 
 ### 功能
@@ -102,8 +116,37 @@ System Properties - Basic Configuration UI16 // 更换 logo
 5. Email Notifications (自动化)
 6. 创建 knownledge 文章 && Import 文章 && Attachment link (Approved) 下载文章
 7. roles 查看自己有什么权限
-7. Service catalog
+8. Process flow (state is new) + 实现自动流转（比如 24 小时没人处理就自动 On Hold）
+9. system definition - table & columns (创建新的database) [玩]
+
+让不同角色只能更改特定状态（比如客户不能直接改 Resolved）
+触发通知（状态变更时发送邮件或 Slack 提醒）
 ```
+
+#### Flow
+
+```
+Trigger
+Trigger: Created or Updated
+Table: Incident
+Condition: none
+Run Trigger: For every update
+
+==
+
+Flow Logic
+Duration : explicit duration 
+Wait for:00 h 00 m 30 s 
+During the following schedule : 24 x 7
+
+Action
+Action: Update Record
+Record: INC0010014
+Table: Incident
+Fields: State   /  On Hold
+```
+
+
 
 #### & 解释
 
