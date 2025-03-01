@@ -135,6 +135,7 @@ System Properties - Basic Configuration UI16 // 更换 logo
 9. system definition - table & columns (创建新的database) [玩]
 10. Problem table (Root Cause Analysis)
 11. Change Management
+12. Flow （Incident Priority 自动化分配人员）
 
 让不同角色只能更改特定状态（比如客户不能直接改 Resolved）
 触发通知（状态变更时发送邮件或 Slack 提醒）
@@ -161,6 +162,24 @@ Action: Update Record
 Record: INC0010014
 Table: Incident
 Fields: State   /  On Hold
+```
+
+```
+// incident 自动分配人员
+1️⃣ Trigger:
+
+Created or Updated
+Table: Incident [incident]
+Condition: Priority is 1 - Critical
+Run Trigger: Once
+
+2️⃣ Action: "Update Record"
+
+Action: "Update Record"
+Record: Trigger - Record Created or Updated➛Incident Record
+Table: Incident [incident]
+Fields:
+	Assigned to - Software Manager
 ```
 
 
