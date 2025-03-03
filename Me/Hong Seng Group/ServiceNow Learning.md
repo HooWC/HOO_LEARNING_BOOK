@@ -133,13 +133,49 @@ System Properties - Basic Configuration UI16 // 更换 logo
 7. roles 查看自己有什么权限
 8. Process flow (state is new) + 实现自动流转（比如 24 小时没人处理就自动 On Hold）
 9. system definition - table & columns (创建新的database) [玩]
-10. Problem table (Root Cause Analysis)
+10. Problem table （Root Cause Analysis, RCA）
 11. Change Management
 12. Flow （Incident Priority 自动化分配人员）
+13. Client Script
+14. Fix Script 【修复小问题的Script】
 
 让不同角色只能更改特定状态（比如客户不能直接改 Resolved）
 触发通知（状态变更时发送邮件或 Slack 提醒）
 ```
+
+#### Problen RCA
+
+```
+📝 示例 1：邮件服务器频繁崩溃
+Problem（问题）： 公司邮件服务器频繁崩溃，导致员工无法正常收发邮件。
+
+📌 Root Cause Analysis (RCA) 填写：
+
+Root Cause（根本原因）: 服务器的存储空间不足，导致邮件服务器无法正常运行。
+Fix（修复方案）: 增加服务器存储空间，并配置磁盘监控告警。
+Workaround（临时解决方案）: 清理旧邮件日志，临时释放空间，使邮件服务器恢复运行。
+Lessons Learned（经验教训）: 设置磁盘使用率监控，避免类似情况再次发生。
+📝 示例 2：用户无法访问公司 VPN
+Problem（问题）： 许多员工报告在远程工作时无法连接 VPN，影响正常办公。
+
+📌 Root Cause Analysis (RCA) 填写：
+
+Root Cause（根本原因）: VPN 服务器上的证书已过期，导致所有连接请求被拒绝。
+Fix（修复方案）: 重新申请并安装新的 VPN 证书，同时配置自动提醒功能。
+Workaround（临时解决方案）: 手动分发本地 VPN 访问密钥，允许部分关键用户访问。
+Lessons Learned（经验教训）: 定期检查所有证书的有效期，提前更新，避免影响业务。
+📝 示例 3：网站访问速度极慢
+Problem（问题）： 客户反馈公司官网加载速度极慢，影响用户体验。
+
+📌 Root Cause Analysis (RCA) 填写：
+
+Root Cause（根本原因）: 数据库查询没有加索引，导致查询时间过长，占用大量服务器资源。
+Fix（修复方案）: 在数据库表中添加索引，并优化查询语句，减少查询时间。
+Workaround（临时解决方案）: 部分数据改为缓存，提高页面加载速度。
+Lessons Learned（经验教训）: 在新功能上线前进行数据库性能测试，确保查询效率。
+```
+
+
 
 #### Flow
 
@@ -233,6 +269,46 @@ Service Catalog → New：
 检查 "Who will receive" 设置，确认通知的收件人是否正确。
 查看邮件模板，确保邮件的内容和格式符合你的预期。
 如果你有更具体的问题，或者想优化通知规则，可以继续调整 Conditions 或者 Recipients 设置！🚀
+```
+
+
+
+#### Client Script
+
+| **方法** | **颜色** | **用途** |
+| -------- | -------- | -------- |
+
+| `g_form.addErrorMessage()` | 🔴 红色 | 重要错误，需要用户修正 |
+| -------------------------- | ------ | ---------------------- |
+
+| `g_form.addWarningMessage()` | 🟠 橙色 | 警告信息，提醒用户注意 |
+| ---------------------------- | ------ | ---------------------- |
+
+| `g_form.addInfoMessage()` | ✅ 绿色 | 普通信息，提示操作成功 |
+| ------------------------- | ------ | ---------------------- |
+
+| `g_form.showFieldMsg()` | 🔴🔵🟠  | 在字段下方显示错误或提示 |
+| ----------------------- | ---- | ------------------------ |
+
+| `g_form.clearMessages()` | 🚀 清除 | 清除 `addErrorMessage` 等消息 |
+| ------------------------ | ------ | ----------------------------- |
+
+
+
+```javascript
+// onChange 当priority 是高级就出现alert
+
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+
+   if(newValue == '1'){
+	alert("You are going to create P1 Incident");
+   }  
+}
 ```
 
 
