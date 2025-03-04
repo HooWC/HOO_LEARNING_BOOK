@@ -296,6 +296,7 @@ Service Catalog → New：
 
 
 ```javascript
+// 01
 // onChange 当priority 是高级就出现alert
 
 function onChange(control, oldValue, newValue, isLoading, isTemplate) {
@@ -308,6 +309,38 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    if(newValue == '1'){
 	alert("You are going to create P1 Incident");
    }  
+}
+```
+
+```javascript
+// 02
+// 自动填 Caller
+
+// name : Set Caller
+// table: Incident
+// type: onLoad
+
+function onLoad() {
+   //Type appropriate comment here, and begin script below
+   
+	if(g_form.isNewRecord()){
+		var user = g_user.userID;
+
+		g_form.setValue('caller_id', user);
+	}
+}
+```
+
+```javascript
+// 03
+
+function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) return;  // 忽略加载时的变化
+
+    if (control.name == 'priority' && newValue == '1') {  // 假设 '1' 表示高级
+        // 设置分配给 Software Manager（假设 Software Manager 的用户 ID 为 'software_manager_id'）
+        g_form.setValue('assigned_to', 'software_manager_id');
+    }
 }
 ```
 
