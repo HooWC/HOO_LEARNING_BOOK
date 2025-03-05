@@ -1,3 +1,12 @@
+```
+Business Rules（服务器端逻辑）
+Script Includes（可复用的代码片段）
+REST API（如何用 ServiceNow 处理 API 请求）
+Table Relationships（如何管理不同表之间的数据关系）
+```
+
+
+
 ### 基础
 
 ```
@@ -142,6 +151,12 @@ System Properties - Basic Configuration UI16 // 更换 logo
 让不同角色只能更改特定状态（比如客户不能直接改 Resolved）
 触发通知（状态变更时发送邮件或 Slack 提醒）
 ```
+
+```
+sys_properties.list
+```
+
+
 
 #### Problen RCA
 
@@ -292,6 +307,22 @@ Service Catalog → New：
 
 | `g_form.clearMessages()` | 🚀 清除 | 清除 `addErrorMessage` 等消息 |
 | ------------------------ | ------ | ----------------------------- |
+
+```javascript
+g_form.setMandatory('field_name', true);  // 将字段设为必填
+g_form.setMandatory('field_name', false); // 取消必填
+```
+
+```javascript
+function onSubmit() {
+    if (!g_form.getValue('short_description')) {
+        g_form.flash('short_description', 'red', 3000);
+        alert('请填写 Short Description！');
+        return false; // 阻止提交
+    }
+    return true;
+}
+```
 
 
 

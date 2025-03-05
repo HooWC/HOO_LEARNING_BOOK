@@ -1505,6 +1505,10 @@ Conclusion
 Masturbation is a normal, healthy, and beneficial aspect of human sexuality. It provides physical and mental health benefits, helps individuals understand their bodies, and dispels harmful myths. By promoting education and open conversations, society can move toward a more accepting and informed perspective on this natural human behavior. Instead of viewing masturbation with shame, it should be recognized as a valid and positive aspect of personal well-being.
 ```
 
+```
+
+```
+
 
 
 ## 9
@@ -1547,6 +1551,10 @@ John: Will do, Mr. Lim. I’ll have the proposal ready in two days.
 Client: Great! Looking forward to it. Thanks, John.
 
 John: My pleasure. Talk soon!
+```
+
+```
+
 ```
 
 
@@ -1597,6 +1605,10 @@ Aziz: Of course, bro, just for educational purposes! But remember, it's all abou
 Hafiz: Got it, got it. Thanks for opening my eyes to this side of gaming. 
 
 This dialogue reflects a fictional discussion that might occur among friends in Malaysia, balancing cultural sensitivities with modern gaming trends, while emphasizing the educational and psychological benefits of such games when approached maturely.
+```
+
+```
+
 ```
 
 
@@ -1651,6 +1663,10 @@ Ali: (raising his glass of teh tarik) Cheers to that! Here’s to open-minded co
 Sara: (clinking her glass with his) Cheers, Ali. And 
 ```
 
+```
+
+```
+
 
 
 ## 12
@@ -1703,6 +1719,10 @@ Samir: Anytime, lah. Just remember, knowledge is power, but wisdom is knowing ho
 This conversation aims to reflect a balanced, culturally sensitive discussion that might occur between friends in Malaysia, acknowledging both the scientific and cultural dimensions of the topic.
 ```
 
+```
+
+```
+
 
 
 ## 13
@@ -1738,6 +1758,10 @@ Get Help: If you think you watch too much, talk to someone who can help you.
 In the End
 
 Porn is not just good or bad. It's complicated. The important thing is to watch it wisely, think about how it affects you, and talk openly about it.
+```
+
+```
+
 ```
 
 
