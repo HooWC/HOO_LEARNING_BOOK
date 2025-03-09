@@ -5,6 +5,16 @@ REST API（如何用 ServiceNow 处理 API 请求）
 Table Relationships（如何管理不同表之间的数据关系）
 ```
 
+```
+servicenow portal design
+```
+
+```
+你好， 我想确认一下我的 Offer Letter 是否可以提供？
+
+Hello, I would like to confirm whether my Offer Letter is available?
+```
+
 
 
 ### 基础
@@ -147,6 +157,7 @@ System Properties - Basic Configuration UI16 // 更换 logo
 12. Flow （Incident Priority 自动化分配人员）
 13. Client Script
 14. Fix Script 【修复小问题的Script】
+15. Request management + Work Flow 【50%】
 
 让不同角色只能更改特定状态（比如客户不能直接改 Resolved）
 触发通知（状态变更时发送邮件或 Slack 提醒）
