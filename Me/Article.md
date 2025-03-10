@@ -1066,10 +1066,12 @@ Customer: Okay, thanks ah!
 report → 报告
 chasing → 追赶
 just need to double-check some numbers → 只是需要再检查一下数据
-better be safe than sorry → 小心总比后悔好
+better be safe than sorry → 小心总比后悔好 安全总比后悔好
 national → 国家级的 / 全国性的
 weird sound → 奇怪的声音
-suspension problem → 悬挂问题
+suspension problem → 悬挂问题  se bian sion
+suspense 悬念 se bian
+suspenseful 悬疑的
 reset → 重置
 ```
 
@@ -1164,21 +1166,26 @@ Ah Fatt: Haha, sure sure. Next time buy jumper cable also la.
 ```
 
 ```
-tow truck
-ChatGPT 说：
-the car breaks down → 车抛锚了
-petrol finish → 汽油用完了
-panic → 惊慌
-jumper cable → 搭电线
-mechanic → 修车师傅 / 机械师
-cousin → 表亲 / 堂兄弟姐妹
+tow truck 拖车 to c/a  卡车  拖
+the car breaks down → 车抛锚了 崩溃了 汽车坏了
+petrol finish → 汽油用完了  pei c/o
+panic → 惊慌 pei next  punish 惩罚 pa next
+depression 抑郁症
+panic attack 惊恐发作
+jumper cable → 搭电线 跨接电缆 毛衣 跳线 jiang be   k bo 电缆
+mechanic → 修车师傅 / 机械师 me ka next
+He is a car mechanic.（他是一名汽车修理工。）
+The mechanic fixed the engine.（机械师修好了引擎。）
+cousin → 表亲 表哥 / 堂兄弟姐妹 ka sheng
 headlights → 车头灯
-spoil → 损坏 / 变质
+spoil → 损坏 / 变质 spo you 溺爱 宠
+don't spoil her 不要宠坏她
 truck → 卡车 / 货车
 tow → 拖走
 discount → 折扣
-hop into → 跳进 / 上车
+hop into → 跳进 / 上车 ha
 tow truck → 拖车
+promotion 晋升 促销
 ```
 
 
@@ -1248,19 +1255,19 @@ Jason: Steady, bro. Okay, we eat first.
 ```
 
 ```
-stall → 摊位 / 熄火
-supper → 宵夜
+stall → 摊位 / 熄火 sto
+supper → 宵夜 sa pe
 Just now → 刚才
 don’t mention → 别客气
-fella → 伙计 / 家伙
+fella → 伙计 / 家伙 fe la
 strict → 严格
-by procedure → 按照程序
+by procedure → 按照程序 pre si zhe
 flexible → 灵活
-nods approvingly → 赞同地点头
-They dig into their food → 他们大口吃起来
+nods approvingly → 赞同地点头 er plu win gli 赞同地
+They dig into their food → 他们大口吃起来 深入挖掘
 late-night → 深夜
-atmosphere → 氛围
-lively → 热闹 / 活泼
+atmosphere → 氛围 r me sfi er
+lively → 热闹 / 活泼 live li
 ```
 
 
@@ -1284,50 +1291,57 @@ In conclusion, the Malaysian style is a beautiful fusion of tradition and modern
 ```
 
 ```
-diversity → 多样性
-blending → 融合
-ethnic influences → 民族影响
-national identity → 国家认同
-architecture → 建筑
-cuisine → 美食 / 菜肴
+diversity → 多样性 de we se ti
+blending → 融合 b练 ding
+ethnic influences → 民族影响 8f next 种族的 民族 in flu en se 影响 fluency
+affect 影响 er f
+national identity → 国家认同 
+architecture → 建筑 r ke take ture
+cuisine → 美食 / 菜肴 ku sing
 blend → 混合 / 融合
-modernity → 现代化
-striking aspects → 显著特点
-stilts → 高跷 / 高架支撑
-intricate wooden carvings → 精美的木雕
-tropical climate → 热带气候
+modernity → 现代化 me de ne ti   ma de
+striking aspects → 显著特点 引人注目的方面 s zhu/y king 引人注目 r spec 方面
+stilts → 高跷 / 高架支撑 sti you s
+intricate wooden carvings → 精美的木雕 in c k 错综复杂  we deng 木制的 ka win 雕刻
+intricate wooden 复杂的木制
+tropical climate → 热带气候 c/a pe call 热带   klai met 气候
 Meanwhile → 与此同时
-colonial-era → 殖民时代
+colonial-era → 殖民时代 ke lo ni o 8 la
 showcase → 展示
 influences → 影响
-modern skyscrapers → 现代摩天大楼
-represent → 代表
-nation's rapid development → 国家快速发展
-harmonious coexistence → 和谐共存
-urban landscape distinctive → 城市景观独特
-multicultural heritage → 多元文化遗产
-attire varies → 服饰各异
+modern skyscrapers → 现代摩天大楼 sky skelag pes   scrapers 刮刀
+represent → 代表 lag present
+nation's rapid development → 国家快速发展 la pe 迅速的  nei sheng  国民
+harmonious coexistence → 和谐共存 ha mo ni ers 和谐  ko 8 si deng 共存
+urban landscape distinctive → 城市景观独特 城市的 er ben  景观 l sgag  de sting te 独特的
+multicultural heritage → 多元文化遗产 mo ti ko c/o 多元文化  hei 了 te 遗产
+attire varies → 服饰各异 er tai ye 服装    h lis 各不相同
 ethnic groups—Malay men → 民族群体——马来男性
-adorn → 装饰
+adorn → 装饰 er door er
 embrace → 拥抱 / 采纳
 In modern times → 在现代
-contemporary fashion → 当代时尚
+contemporary fashion → 当代时尚 ken ten pe l li    fa sheng
 essential → 重要的 / 必不可少的
 scene → 场景 / 领域
-flavorful dishes → 味道丰富的菜肴
-vibrant → 充满活力的
+flavorful dishes → 味道丰富的菜肴 有味道的  菜肴
+vibrant → 充满活力的  we拜 bu/ren
 hawker stalls offering affordable and delicious meals → 提供经济实惠美食的小贩摊位
-Beyond material culture → 超越物质文化
-embodies → 体现
-hospitality and warmth → 热情好客
+ho ke 小贩   摊位 sto s  负担得起的   实惠又美味的饭菜
+Beyond material culture → 超越物质文化 超过 mei tiyou you 材料
+embodies → 体现 and bo dis
+
+hospitality and warmth → 热情好客 ha spe ta l ti
+Hospitality（好客） 指的是热情招待客人、提供友好和周到的服务。
+Warmth（热情） 指的是亲切、温暖的态度，让人感到舒适和被欢迎。
 embracing a spirit → 拥抱精神
 unity despite ethnic and religious differences → 尽管存在种族和宗教差异，仍保持团结
-evident → 显而易见的
-harmony → 和谐
-modernity → 现代性
-heritage → 遗产
-symbol → 象征
-multiculturalism and unity → 多元文化和团结
+unity u ne ti 统一   吕 lei zhe s 宗教
+evident → 显而易见的 8 we deng
+harmony → 和谐 ha me ni
+modernity → 现代性 me de ne ti
+heritage → 遗产 hei l te
+symbol → 象征 符号 si bo
+multiculturalism and unity → 多元文化和团结  li zheng
 ```
 
 
@@ -1841,6 +1855,35 @@ All in all, ...
 
 
 ```
+Terms of resignation 辞职条款
+"You are required to provide one (1) month's written notice or payment in lieu of notice should you wish to resign."
 
+Probation Period Resignation（试用期辞职）
+"During the probation period, you may resign with one (1) week notice."
+
+Position & Job Scope（职位 & 工作范围）
+"Your position is IT Assistant, and you will report to the IT Manager. Your job scope includes ServiceNow development, Power BI reporting, ERP system support, and other IT-related tasks."
+
+Employment Type（雇佣类型）
+
+Probation Period（试用期）
+"You will undergo a 3-month probation period. During this time, either party may terminate the contract with 1-week notice."
+✅ 意思：你可能会有试用期 (Probation Period)，通常是3 个月或 6 个月。试用期内可能辞职通知期较短（例如 1 周）。
+
+Salary & Payment（薪资 & 发薪日）
+"Your monthly salary is RM xxxx, payable on the 30th of each month via bank transfer to your RHB account."
+
+Notice Period (辞职通知期)
+"You must provide 1-month written notice if you wish to resign. Failure to do so requires compensation equivalent to 1 month's salary."
+✅ 意思：如果辞职，通常需要提前 1 个月通知，不然可能要赔偿薪资。
+❗注意：试用期内的辞职通知期可能更短（比如 1 周），你要看清楚！
+
+Termination (公司解雇条款)
+"The company may terminate your employment with 1-month notice or immediate termination for serious misconduct."
+
+Confidentiality & Non-Compete（保密 & 竞业禁止条款）
+"You shall not disclose any company confidential information or engage in similar employment within 6 months after resignation."
+✅ 意思：你不能泄露公司机密，有些公司还会要求你辞职后 6 个月内不能去竞争对手公司。
+❗注意：如果“Non-Compete” 条款太严格，比如限制你整个行业都不能做，你可以和 HR 确认！
 ```
 

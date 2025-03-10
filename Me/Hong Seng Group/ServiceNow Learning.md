@@ -7,6 +7,10 @@ Table Relationships（如何管理不同表之间的数据关系）
 
 ```
 servicenow portal design
+	. https://www.youtube.com/watch?v=QAjxTAt7d30
+	. https://www.youtube.com/watch?v=d2-Ykh3gWvw&list=PLn3f4cT59y6epFfIFCks-YdsDM1VixHgS&index=1
+	
+看地图
 ```
 
 ```
