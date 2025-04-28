@@ -4,7 +4,10 @@
 [GitHub issue 解释]: https://www.bilibili.com/video/BV1EP411d7Np/?p=2
 [GitHub Pull Request 解释 ]: https://www.bilibili.com/video/BV1EP411d7Np/?p=3&amp;spm_id_from=pageDriver&amp;vd_source=98bed7c6ffbd4c5daae519aceb54cc51
 
-
+安全路径提示
+```
+git config --global --add safe.directory 'D:\Hong Seng\Hoo_Note\ITSM\Project\mytemp'
+```
 
 ###  **如果你想切换回 `master`**
 
