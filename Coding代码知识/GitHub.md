@@ -110,6 +110,8 @@ git remote add origin https://github.com/HooWC/vue-rabbit.git
 ### 开始使用 （第一次上传到master）
 
 ```
+git config --global --add safe.directory 'D:/本地/个人/test'
+
 git init
 
 git remote add origin https://github.com/HooWC/HOO_LEARNING.git   // 换你自己的url
